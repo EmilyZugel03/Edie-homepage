@@ -3,6 +3,10 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
+body {
+    background-color: white;
+}
+
 .heading {
     font-size: 48px;
     color: #333;
@@ -74,6 +78,7 @@ nav {
 
 header {
     width: 100%;
+    height: 480px;
 }
 
 .header-bg-wrapper {
@@ -107,7 +112,7 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 420px;
+    height: 600px;
     margin-top: 20px;
 }
 
@@ -122,6 +127,7 @@ header {
     height: 380px;
     width: 25%;
     margin-left: 280px;
+    background-color: white;
 }
 
 .contact-p {
@@ -200,10 +206,10 @@ header {
     width: 100%;
 }
 
-.services-block {
+.service-block {
     background-color: cadetblue;
     width: 35%;
-    height: 400px;
+    height: 480px;
 }
 
 .icon-bg {
@@ -214,11 +220,7 @@ header {
     border-radius: 16px;
 }
 
-.service-icon {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%) translateX(60%);
-}
+.service-icon {}
 
 .service-name {
     font-weight: 700;
