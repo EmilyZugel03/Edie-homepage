@@ -116,11 +116,12 @@ header {
     margin-top: 20px;
 }
 
-.contact-block-wrapper {
+.container {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     max-width: 90%;
+    flex-direction: column;
 }
 
 .contact-block {
@@ -178,39 +179,39 @@ header {
 }
 
 /*--SERVICES SECTION----------*/
-.services-section{
+.services-section {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.heading-wrapper{
+.heading-wrapper {
     display: flex;
     align-self: flex-start;
     width: 346px;
     height: 108px;
 }
 
-.small-heading{
+.small-heading {
     font-weight: 500;
     font-size: 36px;
     color: #333;
 }
 
-.services-content-wrapper{
+.services-content-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.services-blocks-wrapper{
+.services-blocks-wrapper {
     display: flex;
     align-items: center;
 }
 
-.services-block{
+.services-block {
     width: 341px;
     height: 422px;
     margin: 10px;
@@ -221,20 +222,20 @@ header {
     border-radius: 24px;
 }
 
-.services-block:hover{
+.services-block:hover {
     box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.2);
 }
 
-.services-block:hover .service-btn{
+.services-block:hover .service-btn {
     background-color: #2D9CDB;
     color: #E0E0E0;
 }
 
-.block-content-wrapper{
-    margin:20px;
+.block-content-wrapper {
+    margin: 20px;
 }
 
-.icon-bg{
+.icon-bg {
     width: 67px;
     height: 67px;
     display: flex;
@@ -243,15 +244,15 @@ header {
     border-radius: 12px;
 }
 
-.icon-bg-ux{
+.icon-bg-ux {
     background-color: #2D9CDB;
 }
 
-.icon-bg-frontend{
+.icon-bg-frontend {
     background-color: #27AE60;
 }
 
-.icon-bg-backend{
+.icon-bg-backend {
     background-color: #EB5757;
 }
 
@@ -281,7 +282,7 @@ header {
 }
 
 /*--DESIGN SECTION---------*/
-.design-section{
+/*.design-section{
     background-color: #4F4F4F;
     width: 100%;
     display: flex;
@@ -323,4 +324,16 @@ header {
     background-position: cover;
     background-repeat: no-repeat;
     transform: background-image (rotate(-15deg));
+}*/
+
+.design-section {
+    background-color: #828282;
+}
+
+.design-content-wrapper {
+    background-color: #2D9CDB;
+}
+
+.heading-wrapper {
+    background-color: #EB5757;
 }
