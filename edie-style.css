@@ -371,6 +371,7 @@ header {
 .team-section {
     display: flex;
     justify-content: center;
+    margin-top: 140px;
 }
 
 .team-container {
@@ -450,3 +451,143 @@ header {
 }
 
 /*END GRID*/
+
+/*--QUOTE SECTION------------*/
+.quote-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+    margin-bottom: 130px;
+}
+
+.quote-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-weight: 500;
+    font-size: 36px;
+    width: 937px;
+    margin-bottom: 50px;
+}
+
+.bottom-block {
+    display: flex;
+    align-items: center;
+}
+
+.img-portrait {
+    background-image: url("./img/person4.png");
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    width: 82px;
+    height: 82px;
+    border-radius: 12px;
+}
+
+.details-portrait {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50px;
+}
+
+/*--FOOTER-----------------------------*/
+footer {
+    background-color: #100E1D;
+    width: 100%;
+    height: 385px;
+    color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    width: 80%;
+    background-color: #123f5a;
+}
+
+.footer-blocks-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.footer-left-block {
+    width: 33.3%;
+    height: 200px;
+    background-color: #27AE60;
+}
+
+.footer-menu-link {
+    text-decoration: none;
+    list-style: none;
+    line-height: 2;
+    color: #f2f2f2;
+}
+
+.footer-middle-block {
+    width: 33.3%;
+    height: 200px;
+    background-color: rgb(107, 78, 41);
+}
+
+#nav-logo-footer {
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Heebo';*/
+    font-weight: 800;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.sm-box-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.sm-vector {
+    margin-right: 5px;
+    width: 24px;
+}
+
+.footer-right-block {
+    width: 33.3%;
+    height: 200px;
+    background-color: rgb(26, 156, 135);
+}
+
+.footer-contact-content {
+    width: 250px;
+}
+
+.contact-ask {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.footer-btn-input-wrapper {
+    background-color: #F2F2F2;
+    width: 325px;
+    height: 57px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.footer-join-btn {
+    border: none;
+    background-color: #2D9CDB;
+    padding: 18px 28px;
+    border-radius: 12px;
+    font-weight: 600;
+    color: #f2f2f2;
+    font-size: 18px;
+
+}
